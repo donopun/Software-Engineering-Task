@@ -16,7 +16,7 @@ UI must update in real time to show progress, status or feedback changes without
 System must use a data structure to store and organise information
 # Non Functional Requirements
 
-Performance (Efficiency)
+### Performance (Efficiency)
 System must update within 100ms of user interaction for a smooth experience
 Usability
 Interface must incorporate a 'three click rule' where users are able to find educational content within three clicks
