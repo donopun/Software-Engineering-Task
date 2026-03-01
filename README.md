@@ -1,3 +1,3 @@
 # Software-Engineering-Task
-Design a website for educational purposes 
+An educational website intended for software engineering students 
 
