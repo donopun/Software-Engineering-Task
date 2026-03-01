@@ -1,3 +1,3 @@
 # Software-Engineering-Task
+Design a website for educational purposes 
 
-Type information that accurately describes the projects aim and state here. Remember to be a user friendly guide.
