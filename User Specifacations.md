@@ -1,5 +1,4 @@
-
-User Specifications
+# User Specifications
 Project Overview
 The primary objective is to bridge the gap between complex software engineering theory and practical application. This phase of the development life cycle focuses on defining the exact needs of the student user and the technical boundaries required to deliver a high-performance educational tool.
 
