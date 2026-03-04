@@ -27,7 +27,7 @@ To ensure the product is "intuitive" and professional, the following experience 
 
 Responsiveness Threshold: All user-triggered actions must result in a visual response in under 100 milliseconds to maintain a fluid experience.
 
-The Three-Click Rule: The system architecture ensures that any module or specific lesson is reachable within three clicks from the main dashboard.
+Three Click Rule: The system architecture ensures that any module or specific lesson is reachable within three clicks from the main dashboard.
 
 Responsive Design: The interface is built with HTML5 and CSS3 to ensure a consistent experience across various screen sizes and devices.
 
