@@ -1,2 +1,2 @@
 # Project Overview
-  The primary objective is to bridge the gap between the
+  The primary objective is to bridge the gap between 
