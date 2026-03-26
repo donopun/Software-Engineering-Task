@@ -34,4 +34,4 @@ The project is heavily modularized. I made the decision to use **subprograms wit
 
 
 ## 4. Version Control
-The project was developed and documented using GitHub. This acted as my secure storage and allowed me to keep a detailed commit history. Having a "Safety Net" was vital when implementing the more complex iteration loops—if a loop broke the browser, I could easily revert to a previous stable build.
+The project was developed and documented using GitHub. This acted as my secure storage and allowed me to keep a detailed commit history. Having a "Safety Net" was vital when implementing the more complex iteration loops if a loop broke the browser, I could easily revert to a previous stable build.
