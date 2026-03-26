@@ -15,7 +15,7 @@ Even as a solo project, I moved away from a rigid Waterfall model. I used an **A
 I decided on a "Single Page Application" (SPA) feel to keep the user experience seamless. 
 * **The 3 Click Rule:** I mapped the navigation so that no educational module is more than three clicks away. 
 * **Directions & Responses:** I built a dedicated 'Feedback Header' that updates dynamically. Instead of generic alerts, the system uses custom DOM updates to show the user the direct result of their logic choices.
-* **Security Gate:** I chose to implement a custom "Bot Check" puzzle at the start. This wasn't just for flair—it serves as a practical demonstration of **Selection** logic for the student before they even access the main content.
+* **Security Gate:** I chose to implement a custom "Bot Check" puzzle at the start. This wasn't just for flair it serves as a practical demonstration of **Selection** logic for the student before they even access the main content.
 
 ### **Technical Stack & Data Handling**
 I stuck to Vanilla JS, HTML5, and CSS3 to ensure the project remains lightweight and portable. For data storage, I implemented a **JavaScript Array of Objects**. This allows the system to scale; if I want to add a new "Sorting" or "SDLC" module, I just add a new object to the array rather than hardcoding a new HTML page.
