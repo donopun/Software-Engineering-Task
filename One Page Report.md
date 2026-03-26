@@ -1,0 +1,2 @@
+## Purpose 
+The Pulse is a student news platform built for All Saints Catholic College. The purpose of the product is to give students a centralised, easy to use space to read school news, track house competition standings, view the canteen menu, and submit their own stories for publication. The platform replaces fragmented communication channels such as noticeboards and newsletters with a single, always accessible web interface.
