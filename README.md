@@ -1,3 +1,3 @@
 # Software-Engineering-Task
-An educational website intended for software engineering students 
+An educational product intended for software engineering students 
 
