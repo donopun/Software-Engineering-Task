@@ -2,14 +2,11 @@
 
 
 ## 1. Project Purpose
-The goal of this project was to build a functional, browser based tool that moves beyond static text to teach Software Engineering concepts. I wanted to create a "sandbox" where users could see immediate responses to their actions. The project specifically targets the "Logic and Algorithms" sector of the syllabus, providing a guided interface that uses real code behavior to explain abstract programming structures.
+The goal of this project was to build a functional, browser based tool that moves beyond static text to teach Software Engineering concepts.  Create "sandbox" where users could see immediate responses to their actions. The project specifically targets the "Logic and Algorithms" sector of the syllabus, providing a guided interface that uses real code behavior to explain abstract programming structures.
 
 
 
 ## 2. Key Design Decisions
-
-### **Development Workflow**
-Even as a solo project, I moved away from a rigid Waterfall model. I used an **Agile inspired approach**, building the core JavaScript subprograms first before touching the CSS. This meant I had a working "engine" for the logic puzzles and data handling early on. By prioritizing functionality over aesthetics in the first week, I was able to spend more time debugging the parameter passing between my main modules.
 
 ### **Interface & UX Strategy**
 I decided on a "Single Page Application" (SPA) feel to keep the user experience seamless. 
