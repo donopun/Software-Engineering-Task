@@ -40,4 +40,4 @@ Interface responds to user inputs within 100ms with no visible delay during stan
 ## Usability
 All instructional content is reachable in a maximum of three clicks from the main dashboard.
 ## Navigation
-Users can navigate between all modules without broken links, incomplete loads, or console errors. Sonnet 4.6
+Users can navigate between all modules without broken links, incomplete loads, or console errors. 
