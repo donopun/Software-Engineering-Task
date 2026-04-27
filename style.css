@@ -1,0 +1,50 @@
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    width: 380px;
+    text-align: center;
+}
+
+.view.hidden { display: none; }
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 1rem 0;
+    border: 2px solid #e1e4e8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.primary { background: #007bff; color: white; }
+.primary:hover { background: #0056b3; }
+
+.secondary { background: #6c757d; color: white; margin-top: 10px; }
+
+.back-btn { width: auto; background: none; color: #007bff; padding: 0; }
+
+.error-text { color: #dc3545; font-size: 0.9rem; margin-top: 10px; }
+.correct { color: #28a745; font-weight: bold; }
