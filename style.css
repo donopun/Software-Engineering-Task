@@ -1,33 +1,26 @@
 body {
-    font-family: 'Inter', -apple-system, sans-serif;
-    background: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Professional Coding Background */
+    background: linear-gradient(135deg, #1e1e2f 0%, #2d2d44 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    color: #ffffff;
 }
 
 .card {
-    background: white;
-    padding: 2.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    width: 380px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    width: 400px;
     text-align: center;
+    color: #333; /* Dark text for readability on white card */
 }
 
 .view.hidden { display: none; }
-
-input {
-    width: 100%;
-    padding: 12px;
-    margin: 1rem 0;
-    border: 2px solid #e1e4e8;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-size: 1rem;
-}
 
 button {
     width: 100%;
@@ -36,15 +29,22 @@ button {
     border: none;
     cursor: pointer;
     font-weight: 600;
-    transition: 0.2s ease;
+    margin-top: 15px;
+    transition: 0.3s;
 }
 
-.primary { background: #007bff; color: white; }
-.primary:hover { background: #0056b3; }
+button:hover { opacity: 0.8; transform: translateY(-2px); }
 
-.secondary { background: #6c757d; color: white; margin-top: 10px; }
+.primary-btn { background: #007bff; color: white; }
+.secondary-btn { background: #6c757d; color: white; }
 
-.back-btn { width: auto; background: none; color: #007bff; padding: 0; }
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
 
-.error-text { color: #dc3545; font-size: 0.9rem; margin-top: 10px; }
-.correct { color: #28a745; font-weight: bold; }
+#feedback-text { font-weight: bold; margin-top: 10px; }
