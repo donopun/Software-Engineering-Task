@@ -1,4 +1,3 @@
-Tool: Chrome Developer Tools Console
 ## Tool: Chrome Developer Tools Console
 
 How it was used: I used the console to monitor for JavaScript execution errors and to trace variable states during the login process.
