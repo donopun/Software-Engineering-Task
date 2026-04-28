@@ -3,43 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Engineering Stage 6 Portal</title>
+    <title>Software Engineering Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="app-container">
-        
-        <section id="login-view" class="view">
+    <div class="card">
+        <div id="login-view" class="view">
             <h1>Security Gate</h1>
-            <p>Please enter your email to access instructional content.</p>
+            <p>Please enter your student email to access the portal.</p>
             <input type="email" id="email-input" placeholder="student@school.edu">
-            <button onclick="validateEmail()">Login</button>
-            <p id="login-error" class="error"></p>
-        </section>
+            <p id="login-error" style="color: red; font-size: 0.8rem;"></p>
+            <button class="primary-btn" onclick="validateEmail()">Login</button>
+        </div>
 
-        <section id="dashboard-view" class="view hidden">
-            <h1>Student Dashboard</h1>
-            <div class="nav-menu">
-                <button onclick="showView('quiz-view')">Start Quiz</button>
-                <button onclick="logout()">Logout</button>
-            </div>
-        </section>
+        <div id="dashboard-view" class="view hidden">
+            <h1 id="welcome-msg"></h1>
+            <p>Your learning modules are ready.</p>
+            <hr>
+            <button class="primary-btn" onclick="showView('quiz-view')">Start Coding Quiz</button>
+            <button class="secondary-btn" onclick="logout()">Logout</button>
+        </div>
 
-        <section id="quiz-view" class="view hidden">
-            <div class="quiz-header">
-                <button onclick="showView('dashboard-view')">Back to Dashboard</button>
-                <span id="score-display">Score: 0</span>
-            </div>
-            
+        <div id="quiz-view" class="view hidden">
             <div id="quiz-container">
-                <h2 id="question-text">Display Question from Array</h2>
-                <input type="text" id="answer-input" placeholder="Type your answer here...">
-                <button onclick="processAndValidate()">Submit Answer</button>
+                <div id="score-display" style="text-align: right; font-weight: bold;">Score: 0</div>
+                <h3>Question:</h3>
+                <p id="question-text">Loading question...</p>
+                
+                <input type="text" id="answer-input" placeholder="Your answer here...">
+                <button class="primary-btn" onclick="processAndValidate()">Submit Answer</button>
                 <p id="feedback-text"></p>
+                
+                <button class="secondary-btn" onclick="showView('dashboard-view')" style="margin-top: 20px;">Back to Dashboard</button>
             </div>
-        </section>
-
+        </div>
     </div>
 
     <script src="script.js"></script>
