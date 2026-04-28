@@ -7,5 +7,5 @@ Tool: Chrome Network Tab
 
 How it was used: I used this tool to audit the load times of every asset to ensure the system meets the 100ms response time requirement.
 ## 4. Syntax Highlighting & Linter
-* **Purpose:** To catch missing semicolons, unclosed brackets `}`, or misspelled keywords before the code was deployed.
-* **Technique:** Using the GitHub editor's built-in color-coding to distinguish between Strings, Integers, and Functions, which helped prevent "Type Errors."
+ To catch missing semicolons, unclosed brackets `}`, or misspelled keywords before the code was deployed.
+ Using the GitHub editor's built-in color-coding to distinguish between Strings, Integers, and Functions, which helped prevent "Type Errors."
